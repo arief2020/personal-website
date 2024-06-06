@@ -12,7 +12,7 @@ export default function Contact() {
         </h3>
         <div className="social-media flex justify-center space-x-4 text-4xl">
           <a
-            href="https://github.com/arief2020"
+            href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 dark:text-gray-200 hover:text-black dark:hover:text-white transition duration-300"
@@ -20,7 +20,7 @@ export default function Contact() {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/muhammad-syaifullah-al-arief/"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-600 transition duration-300"
@@ -30,14 +30,9 @@ export default function Contact() {
         </div>
       </div>
       <div className="text-center flex flex-col justify-between items-center h-3/5 grow">
-        <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=msyaifullahalarief@gmail.com&su=about your portofolio&body=Hello, i have seen your portofolio and i want ..."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gray-800 dark:bg-white text-white dark:text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300 mb-4 btn w-36 flex items-center justify-center"
-        >
+        <button className="bg-gray-800 dark:bg-white text-white dark:text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300 mb-4 btn w-36">
           Contact Me
-        </a>
+        </button>
         <p className="text-gray-600 dark:text-gray-400">
           Copyright 2024, @musarif
         </p>

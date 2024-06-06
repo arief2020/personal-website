@@ -22,9 +22,13 @@ export default function Hero() {
         <SiPostgresql className="text-blue-800 text-3xl" />
         <SiJavascript className="text-yellow-500 text-3xl" />
       </div>
-      <button className="btn mt-6 bg-white dark:bg-gray-800 dark:text-white border-2 border-gray-800 dark:border-white px-6 py-2 hover:bg-gray-800 hover:text-white dark:hover:bg-gray-700 dark:hover:border-gray-400 transition duration-300">
-        Hire Me
-      </button>
+      <a
+        href="https://drive.google.com/file/d/1UksPeJ26LuGOByTU1KWfrmnH5eF4Z8Jp/view?usp=drive_link"
+        download="Muhammad Syaifullah Al Arief CV.pdf"
+        className="btn mt-6 bg-white dark:bg-gray-800 dark:text-white border-2 border-gray-800 dark:border-white px-6 py-2 hover:bg-gray-800 hover:text-white dark:hover:bg-gray-700 dark:hover:border-gray-400 transition duration-300"
+      >
+        My CV
+      </a>
     </main>
   );
 }

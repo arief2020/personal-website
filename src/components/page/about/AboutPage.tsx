@@ -1,8 +1,5 @@
 "use client";
 import React from "react";
-import { FaDocker, FaGit, FaLaravel, FaReact, FaVuejs } from "react-icons/fa";
-import { FaGolang } from "react-icons/fa6";
-import { SiExpress, SiJavascript, SiPostgresql } from "react-icons/si";
 import Education from "./parts/Education";
 import Bio from "./parts/Bio";
 import Contact from "@/components/parts/Contact";
@@ -13,7 +10,6 @@ export default function AboutPage() {
       <Bio />
 
       <Education />
-	  <Contact />
     </main>
   );
 }

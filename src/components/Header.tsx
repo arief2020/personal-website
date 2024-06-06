@@ -19,13 +19,13 @@ const Header = () => {
           About
         </Link>
         <Link
-          href="/"
+          href="/project"
           className="list-none underline-hover mr-2 cursor-pointer dark:text-white"
         >
           Project
         </Link>
         <Link
-          href="/"
+          href="/blog"
           className="list-none underline-hover mr-2 cursor-pointer dark:text-white"
         >
           Blog
