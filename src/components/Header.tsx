@@ -3,7 +3,7 @@ import ThemeSwitch from "./parts/ThemeSwitch";
 
 const Header = () => {
   return (
-    <header className="navbar bg-white dark:border-slate-950 dark:bg-gray-900 shadow-lg flex justify-between px-8 py-4 fixed transition duration-300">
+    <header className="navbar bg-white dark:border-slate-950 dark:bg-gray-900 shadow-lg flex justify-between px-8 py-4 fixed transition duration-300 z-50">
       <a className="btn btn-ghost text-xl dark:text-white">Musarif</a>
       <nav className="flex space-x-4 items-center">
         <Link
