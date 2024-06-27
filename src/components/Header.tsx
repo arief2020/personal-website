@@ -39,21 +39,21 @@ const Header = () => {
          </Link>
          <Link
            href="/about"
-           className="block md:inline list-none underline-hover mr-2 cursor-pointer dark:text-white py-2 md:py-0"
+           className="block md:inline list-none underline-hover pr-2 mr-2 cursor-pointer dark:text-white py-2 md:py-0"
            style={{ marginLeft: 0 }}
          >
            About
          </Link>
          <Link
            href="/project"
-           className="block md:inline list-none underline-hover mr-2 cursor-pointer dark:text-white py-2 md:py-0"
+           className="block md:inline list-none underline-hover  pr-2 mr-2 cursor-pointer dark:text-white py-2 md:py-0"
            style={{ marginLeft: 0 }}
          >
            Project
          </Link>
          <Link
            href="/blog"
-           className="block md:inline list-none underline-hover mr-2 cursor-pointer dark:text-white py-2 md:py-0"
+           className="block md:inline list-none underline-hover  pr-2 mr-2 cursor-pointer dark:text-white py-2 md:py-0"
            style={{ marginLeft: 0 }}
          >
            Blog
